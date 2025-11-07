@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.4"
+openssh = "0.11.5"
+rustls = "0.23.31"
 serde = {version = "1.0.219", features = ["derive"]}
 tokio = { version = "1", features = ["full"] }
+tokio-rustls = "0.26.2"
 tower-http = { version = "0.5", features = ["fs"] }
