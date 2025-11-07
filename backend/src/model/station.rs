@@ -5,6 +5,7 @@ use std::sync::{Arc, Mutex};
 pub struct Station {
     pub id: u32,
     pub name: String,
+    pub owner: String,
     pub reserved: bool,
 }
 
